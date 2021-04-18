@@ -4,7 +4,7 @@ const fileUpload =require('express-fileupload');
 const objectId = require('mongodb').ObjectID
 const cors = require('cors');
 const app = express()
-require('dotenv').config()
+require('dotenv').config();
 const port = 5011
 
 
